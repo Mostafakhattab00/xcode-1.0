@@ -12,5 +12,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) NSString *str; // this is a test
-
+ // this is an added commit
 @end
