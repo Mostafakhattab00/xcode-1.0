@@ -22,6 +22,8 @@
 		39EE2E231976913100F6D553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE2E021976913100F6D553 /* UIKit.framework */; };
 		39EE2E2B1976913100F6D553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39EE2E291976913100F6D553 /* InfoPlist.strings */; };
 		39EE2E2D1976913100F6D553 /* XcodetForGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE2E2C1976913100F6D553 /* XcodetForGitTests.m */; };
+		39EE2E391976982200F6D553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE2E371976982200F6D553 /* ViewController.m */; };
+		39EE2E3A1976982200F6D553 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39EE2E381976982200F6D553 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		39EE2E281976913100F6D553 /* XcodetForGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodetForGitTests-Info.plist"; sourceTree = "<group>"; };
 		39EE2E2A1976913100F6D553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39EE2E2C1976913100F6D553 /* XcodetForGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodetForGitTests.m; sourceTree = "<group>"; };
+		39EE2E361976982200F6D553 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39EE2E371976982200F6D553 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39EE2E381976982200F6D553 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,9 @@
 		39EE2DF21976913100F6D553 = {
 			isa = PBXGroup;
 			children = (
+				39EE2E361976982200F6D553 /* ViewController.h */,
+				39EE2E371976982200F6D553 /* ViewController.m */,
+				39EE2E381976982200F6D553 /* ViewController.xib */,
 				39EE2E041976913100F6D553 /* XcodetForGit */,
 				39EE2E261976913100F6D553 /* XcodetForGitTests */,
 				39EE2DFD1976913100F6D553 /* Frameworks */,
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EE2E3A1976982200F6D553 /* ViewController.xib in Resources */,
 				39EE2E151976913100F6D553 /* Main_iPad.storyboard in Resources */,
 				39EE2E1A1976913100F6D553 /* Images.xcassets in Resources */,
 				39EE2E121976913100F6D553 /* Main_iPhone.storyboard in Resources */,
@@ -255,6 +264,7 @@
 			files = (
 				39EE2E181976913100F6D553 /* ViewController.m in Sources */,
 				39EE2E0F1976913100F6D553 /* AppDelegate.m in Sources */,
+				39EE2E391976982200F6D553 /* ViewController.m in Sources */,
 				39EE2E0B1976913100F6D553 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
